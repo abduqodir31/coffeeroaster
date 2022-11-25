@@ -1,0 +1,70 @@
+.commit__block {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.commit__image {
+  max-width: 445px;
+  
+}
+.commit{
+  padding-bottom: 386px;
+}
+
+.commit__img {
+  border-radius: 12px;
+}
+.commit__block {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+.commit__left-block {
+  max-width: 575px;
+}
+.commit__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+.commit__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  opacity: 0.8;
+}
+
+@media screen and (max-width:1070px ) {
+  .commit__image{
+display: flex;
+align-items: flex-start;
+flex-shrink: 0;
+
+  }
+  .commit__img{
+    max-width: 281px;
+    height: 470px;
+  }
+  .commit__title{
+    font-size: 32px;
+line-height: 48px;
+  }
+  .commit__text{
+    font-size: 15px;
+line-height: 25px;
+height: 350px;
+max-width: 339px;
+overflow: hidden;
+overflow: auto;
+  }
+
+}
+@media screen and (max-width:642px) {
+    .commit__block{
+        flex-direction: column;
+        gap: 48px;
+    }
+}

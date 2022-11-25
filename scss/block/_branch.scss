@@ -1,0 +1,79 @@
+.branch{
+    padding-bottom: 168px;
+}
+
+.branch__block{
+    max-width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.branch__top-title{
+    font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-bottom: 72px;
+}
+.branch__bottom-img{
+    background-image: url(../images/uk.svg);
+    background-repeat: no-repeat;
+    width: 40.84px;
+    height: 49.07px;
+    margin-bottom: 45.93px;
+}
+
+.branch__bottom-img-2{
+    background-image: url(../images/canada.svg);
+    background-repeat: no-repeat;
+    width: 40.84px;
+    height: 49.07px;
+    margin-bottom: 45.93px;
+}
+.branch__bottom-img-3{
+    background-image: url(../images/australia.svg);
+    background-repeat: no-repeat;
+    width: 40.84px;
+    height: 49.07px;
+    margin-bottom: 45.93px;
+}
+.branch__bottom-title{
+    font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+margin-bottom: 24px;
+}
+.branch__bottom-text{
+    font-family: 'Barlow';
+
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+
+.branch__bottom-list{
+    display: flex;
+    align-items: center;
+ gap: 95px;
+}
+
+@media screen and (max-width:833px) {
+    .branch__bottom-title{
+        font-size: 24px;
+    }
+    .branch__bottom-list{
+      gap: 30px;
+    }
+   
+}
+@media screen and (max-width:642px) {
+    .branch__bottom-list{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .branch__top-title{
+        text-align: center;
+    }
+}
